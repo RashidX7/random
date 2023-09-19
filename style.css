@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+.mainBlock {
+    display: flex;
+    height: 100vh;
+    background-color: #2d2d2d32;
+}
+.block {
+    width: 20%;
+    text-align: center;
+    padding-top: 20px;
+    transition: background-color 0.2s ease;
+}
+button {
+    padding: 7px 20px;
+    border-radius: 5px;
+    border: 1px solid #2d2d2d4d;
+    background-color: rgba(3, 3, 3, 0.254);
+    color: white;
+    cursor: pointer;
+}
